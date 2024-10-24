@@ -5,7 +5,7 @@
 ## Docker commands for pull and push 
 
 
-
+```BASH
   curl https://www.tooplate.com/zip-templates/2103_central.zip
   ls
   curl -0 https://www.tooplate.com/zip-templates/2103_central.zip
@@ -106,4 +106,4 @@
   docker rm 0ce86ccf501a
   docker images
   docker rmi 03d69efdf72a
-
+```
