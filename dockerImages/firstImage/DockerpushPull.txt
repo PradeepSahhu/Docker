@@ -1,0 +1,100 @@
+ 4436  curl https://www.tooplate.com/zip-templates/2103_central.zip
+ 4437  ls
+ 4438  curl -0 https://www.tooplate.com/zip-templates/2103_central.zip
+ 4439  curl -0 --output https://www.tooplate.com/zip-templates/2103_central.zip
+ 4440  curl --output https://www.tooplate.com/zip-templates/2103_central.zip
+ 4441  curl -O https://www.tooplate.com/zip-templates/2103_central.zip\n
+ 4442  ls
+ 4443  mv 2103_central.zip firstImage
+ 4444  ls
+ 4445  cd firstImage
+ 4446  ls
+ 4447  unzip 2103_central.zip central
+ 4448  unzip 2103_central.zip 
+ 4449  ls
+ 4450  cd 2103_central
+ 4451  ls
+ 4452  tar czvf nano.tar.gz *
+ 4453  mv nano.tar.gz ../
+ 4454  cd ..
+ 4455  ls
+ 4456  rm -rf 2103_central
+ 4457  ls
+ 4458  rm -rf 2103_central.zip
+ 4459  ls
+ 4460  vim Dockerfile
+ 4461  docker build -t nanoImage .
+ 4462  docker build -t nanoimage .
+ 4463  docker images
+ 4464  docker run nanoimage
+ 4465  docker run -p -d nanoimage
+ 4466  docker run -p 2020:80  -d nanoimage
+ 4467  docker ps -a
+ 4468  docker ps
+ 4469  docker logs 8b7986d95731ackwell
+ 4470  docker logs 8b7986d95731
+ 4471  vim Dockerfile
+ 4472  docker build -t nanoimage .
+ 4473  docker images
+ 4474  docker rmi 791465b42bcb
+ 4475  docker ps
+ 4476  docke ps -a
+ 4477  docker ps -a
+ 4478  docker rm 8b7986d95731
+ 4479  docker rm fb2f37708b2e
+ 4480  docer rmi 791465b42bcb
+ 4481  docker rmi 791465b42bcb
+ 4482  ls
+ 4483  docker images
+ 4484  docker run -d --name nanowebsite -p 2020:80 nanoimg
+ 4485  vim Dockerfile
+ 4486  docker ps -a
+ 4487  docker images
+ 4488  docker rmi nanoimage
+ 4489  docker build -t nanoimage .
+ 4490  docker run -d --name nanowebsite -p 2020:80 nanoimg
+ 4491  docker run -d --name nanowebsite -p 2020:80 nanoimage
+ 4492  docker ps
+ 4493  docker build -t pradeepsahuu:nanoimg .
+ 4494  docker images
+ 4495  docker build -t pradeepsahuu:nanoimg:T1 .
+ 4496  ls
+ 4497  docker build -t pradeepsahuu/nanoimg:T1 .
+ 4498  docker images
+ 4499  docker rmi 03d69efdf72a
+ 4500  docker ps
+ 4501  docker login
+ 4502  docker push pradeepsahuu/nanoimg:T1
+ 4503  docker ps -a
+ 4504  docker ps
+ 4505  docker stop 15961be3fa47
+ 4506  docker images
+ 4507  docker rmi 03d69efdf72a
+ 4508  docker rm 15961be3fa47
+ 4509  docker rmi 03d69efdf72a
+ 4510  docker images
+ 4511  docker ps 
+ 4512  docker ps -a
+ 4513  docker rmi pradeepsahuu
+ 4514  docker rmi pradeepsahuu/nanoimg:T1
+ 4515  docker images
+ 4516  docker rmi pradeepsahuu:nanoimg
+ 4517  docker rmi nanoimage
+ 4518  docker images
+ 4519  docker pull docker push pradeepsahuu/nanoimg
+ 4520  docker pull docker push pradeepsahuu/nanoimg:T1
+ 4521  docker pull pradeepsahuu/nanoimg:T1
+ 4522  git images
+ 4523  docker images
+ 4524  docker run -d --name nanowebsite -p 2021:80 pradeepsahu/nanoimg
+ 4525  docker run -d --name nanowebsite -p 2021:80 pradeepsahu/nanoimg:T1
+ 4526  docker run -d --name nanowebsite -p 2021:80 nanoimg
+ 4527  docker run -d --name nanowebsite -p 2021:80 nanoimg:T1
+ 4528  docker images
+ 4529  docker run -d --name nanowebsite -p 2021:80 pradeepsahuu/nanoimg:T1
+ 4530  docker ps -a
+ 4531  docker ps
+ 4532  docker stop 0ce86ccf501a
+ 4533  docker rm 0ce86ccf501a
+ 4534  docker images
+ 4535  docker rmi 03d69efdf72a

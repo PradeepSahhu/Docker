@@ -1,0 +1,120 @@
+
+ 4295  cd Users/pradeepsahu/Desktop/des
+ 4296  cd Users/pradeepsahu/Desktop/
+ 4297  cd dockerLearning
+ 4298  ls
+ 4299  cd dockerCommands
+ 4300  docker pull mysql:5.7
+ 4301  docker pull mysql
+ 4302  clear
+ 4303  docker images
+ 4304  docker inspect mysql
+ 4305  ls
+ 4306  mkdir docker_volumes
+ 4307  ls
+ 4308  pwd
+ 4309  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands:/var/lib/mysql mysql
+ 4310  docker ps
+ 4311  docker ps -a
+ 4312  docker logs e1832573fe0f
+ 4313  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands:/var/lib/mysql mysql
+ 4314  docker ps -a
+ 4315  docker ps a
+ 4316  docker rm mydb
+ 4317  docker ps -a
+ 4318  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands:/var/lib/mysql/ mysql
+ 4319  docker ps -a
+ 4320  docker logs 120b11c06781
+ 4321  docker rmi mysql
+ 4322  docker ps -a
+ 4323  docker rm mydb
+ 4324  docker rmi mysql
+ 4325  docker pull mysql:5.7
+ 4326  docker pull mysql:8.0\n
+ 4327  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands:/var/lib/mysql/ mysql:8.0
+ 4328  docker ps
+ 4329  docker ps -a
+ 4330  docker logs 585905d7848d
+ 4331  docker rm 585905d7848d
+ 4332  docker rmi mysql:8.0
+ 4333  docker pull mysql
+ 4334  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands:/var/lib/mysql mysql:8.0
+ 4335  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands:/var/lib/mysql/ mysql
+ 4336  docker ps
+ 4337  clear
+ 4338  docker ps -a
+ 4339  docker logs 81914f7bfd9e
+ 4340  docker exec -it 2024-10-24 10:27:49+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.1.0-1.el9 started.\n2024-10-24 10:27:50+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n2024-10-24 10:27:50+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.1.0-1.el9 started.\n2024-10-24 10:27:50+00:00 [Note] [Entrypoint]: Initializing database files\n2024-10-24T10:27:50.368544Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.\n2024-10-24T10:27:50.369628Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysitializing of server in progress as process 80\n2024-10-24T10:27:50.371253Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.\n2024-10-24T10:27:50.371258Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.\n2024-10-24T10:27:50.371299Z 0 [ERROR] [MY-010119] [Server] Aborting\n2024-10-24T10:27:50.371606Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+ 4341  docker exec -it 81914f7bfd9e
+ 4342  docker exec -it 81914f7bfd9e bash
+ 4343  docker ps
+ 4344  ls
+ 4345  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands/docker_volumes/:/var/lib/mysql mysql
+ 4346  docker rm mydb
+ 4347  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands/docker_volumes/:/var/lib/mysql mysql
+ 4348  docker ps
+ 4349  ls
+ 4350  ls docker_volumes
+ 4351  docker exec -it 49bd92680ab6 /bin/bash/
+ 4352  docker exec -it 49bd92680ab6 /bin/bash
+ 4353  docker stop 49bd92680ab6
+ 4354  docker rm 49bd92680ab6
+ 4355  ls
+ 4356  ls docker_volumes
+ 4357  docker volume
+ 4358  docker volume create mydbData
+ 4359  docker volume ls
+ 4360  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v /Users/pradeepsahu/Desktop/dockerLearning/dockerCommands/docker_volumes/:/var/lib/mysql mysql
+ 4361  dokcer ps
+ 4362  docker ps
+ 4363  docker rm faa723b2b031
+ 4364  docker ps 
+ 4365  docker stop faa723b2b031
+ 4366  docker rm faa723b2b031
+ 4367  docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=secretpass -p 3020:3306 -v mydbData:/var/lib/mysql mysql
+ 4368  docker ps
+ 4369  clear
+ 4370  ls /var/lib/
+ 4371  ls /var/lib/postfix
+ 4372  sudo ls /var/lib/postfix
+ 4373  ls /
+ 4374  ls ~/Library/Containers/com.docker.docker/Data/vms/0/\n
+ 4375  ls ~/Library/Containers/com.docker.docker/Data/\n
+ 4376  ls ~/Library/Containers/com.docker.docker/Data/vms\n
+ 4377  ls ~/Library/Containers/com.docker.docker/Data/vms/0\n
+ 4378  ls ~/Library/Containers/com.docker.docker/Data/vms/0/\n
+ 4379  ls ~/Library/Containers/com.docker.docker/Data/vms/0/data\n
+ 4380  ls ~/Library/Containers/com.docker.docker/Data/vms/0/log\n
+ 4381  clear
+ 4382  docker ps -a
+ 4383  docker ps 
+ 4384  docker inspect 6389e2318fa2
+ 4385  docker logs 6389e2318fa2
+ 4386  docker inspect 6389e2318fa2
+ 4387  ping 172.17.0.2
+ 4388  docker inspect 6389e2318fa2
+ 4389  ping 172.17.0.2
+ 4390  docker exec 172.17.0.2 /bin/bash
+ 4391  docker ps 
+ 4392  docker exec 6389e2318fa2 /bin/bash
+ 4393  ping 172.17.0.2
+ 4394  docker exec 6389e2318fa2 /bin/bash
+ 4395  docker exec mydb /bin/bash
+ 4396  docker ps
+ 4397  docker logs mydb
+ 4398  docker ps
+ 4399  docker exec -it 6389e2318fa2 /bin/bash
+ 4400  mysql -h 172.17.0.2 -u root -p password
+ 4401  mysql -h 172.17.0.2 -u root -psecretpass
+ 4402  docker ps -a
+ 4403  docker ps 
+ 4404  docker inspect
+ 4405  docker inspect 6389e2318fa2
+ 4406  mysql -h 172.17.0.2 -u root -psecretpass
+ 4407  mysql -h 172.17.0.2 -u root -p secretpass
+ 4408  docker exec -it 6389e2318fa2 /bin/bash
+ 4409  docker ps -a
+ 4410  docker stop 6389e2318fa2
+ 4411  docker rm 6389e2318fa2
+ 4412  docker rmi mysql
+ 4413  docker images
